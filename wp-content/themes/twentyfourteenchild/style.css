@@ -1,0 +1,64 @@
+/*
+Theme Name: Twenty Thirteen Child
+Theme URI: http://http://wordpresstreehouse.com//
+Description: Child theme for the Twenty Thirteen theme
+Author: Zac Gordon
+Author URI: http://wp.zacgordon.com/
+Template: twentythirteen
+Version: 1.0
+*/
+
+@import "../twentythirteen/style.css";
+
+.site-header {
+background: #353333;
+}
+.site-footer {
+    background: #353333;
+}
+
+.navbar {
+background-color: #EBEBEB;
+margin: 0 auto;
+max-width: 1600px;
+width: 100%;
+}
+
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
+background-color: #353333;;
+color: #FFFFFF;
+}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+color: #7988AD;
+font-style: italic;
+}
+
+
+.entry-meta a:hover {
+color: #C49687;
+}
+
+.entry-meta a {
+color: #7C92B9;
+}
+
+.widget a:hover {
+color: #C49687;
+}
+
+.widget a {
+color: #7C92B9;
+}
+
+.widget {
+background-color: rgba(191, 187, 187, 0.5);
+font-size: 14px;
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+margin: 0 0 24px;
+padding: 20px;
+word-wrap: break-word;
+}
